@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Albashir Ishaq Ibrahim">
+    <title>Cabinet Hub</title>
+    <link rel="icon" href="favicon.png" type="image">
+  
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Bootsrapt css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- MapBox -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+
+  <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success px-md-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.jpg" alt="" class="rounded-circle"> Cabinet Hub Zinder</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img class="lang-img" src="images/language.png" alt=""></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
+                  <li><a class="dropdown-item" href="#">Hausa</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#partnerships">Partnerships</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel Section -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="carousel-img img-fluid opacity-75" src="images/Banner-1.jpg" class="d-block w-100" alt="...">
+            <div class="caro  carousel-caption d-none d-md-block">
+              <h1 class="bg-dark bg-opacity-50">CABINET HUB ZINDER</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-img img-fluid opacity-75" src="images/Banner-2.jpg" class="d-block w-100" alt="...">
+            <div class="caro carousel-caption d-none d-md-block">
+              <h2 class="bg-dark bg-opacity-25">Enterpreneurship</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-img img-fluid opacity-75" src="images/Banner-3.jpg" class="d-block w-100" alt="...">
+            <div class="caro carousel-caption d-none d-md-block">
+              <h2 class="bg-dark bg-opacity-25">Tech-Skills Promotion</h2>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon  bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Mission and Vision Section -->
+      <section class="p-md-4 text-center align-items-center">
+        <div class="container">
+          <h2 class="mission-header">
+            Our Mission & Vision
+          </h2>
+          <div class="row pt-3">
+            <div class="col-md">
+              <h3>Mission</h3>
+              <img class="mission-img img-fluid" src="images/target.png" alt="">
+              <p>CABINET Hub Zinder seeks to ameliorate Youth Entrepreneurial Skills in Zinder Niger by providing young Nigeriens aged 18-45 with Education, Empowerment, Engagement and Employment within a conducive co-working environment.</p>
+            </div>
+            <div class="col-md">
+              <h3>Vision</h3>
+              <img class="mission-img img-fluid" src="images/vision.png" alt="">
+              <p>We aim to serve around 40,000 youth  who have acquired 10 years of basic literacy skills within the formal school system</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Digital SKills training section -->
+      <section class="bg-success pb-4 p-md-5 text-light">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <h3 class="fs-1">Digital Skills Training</h3>
+            <P class="lead">We are providing the the local youth with digital opportunities</P>
+            <p>The digital empowerment program at Zinder is equiping the youth, especially women and girls, with digital skills that will enable them to improve their socio-economic status, become change agents, and make a positive impact on their communities. By bridging the digital divide, the program has contributed to the development of the city and creation of a sustainable future for its inhabitants.</p>
+            </div>
+            <div class="col-md">
+              <img class="img-fluid" src="images/Digital-Skills-training.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Enterpreneurship Section -->
+      <section class="pt-2 pb-4 p-md-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img class="img-fluid" src="images/enterpreneurship.jpg" alt="">
+            </div>
+            <div class="col-md">
+              <h3 class="fs-1">Enterpreneurship Trainings</h3>
+              <p>Cabinet Zinder is empowering the people of Niger by providing them with the tools and knowledge they need to succeed as entrepreneurs. Through our comprehensive entrepreneurship training program, we are unlocking the potential of individuals, especially those in underserved communities, and creating opportunities for them to build sustainable businesses. By equipping our participants with skills in business planning, marketing, financial management, and more, we are catalyzing economic growth and promoting self-reliance in Niger. Join us in transforming lives and communities through entrepreneurship.</p>
+              <p>Our Areas includes;</p>
+              <ol>
+                <li>Freelance</li>
+                <li>Startup and Incubators</li>
+                <li>Club Membership</li>
+                <li>Niche Entrepreneurial Trainings</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hackathon Section -->
+      <section class="orange-section pb-4 p-md-5 text-light">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <h3 class="fs-1">Hackathon</h3>
+            <P class="lead">We organize and participate in Hackathons</P>
+            <p>This year we participated in United Nations Economic Commision for Africa Hackathon on leveraging digital technologies for climate change and adaptation in February 2023, Niamey Niger.</p>
+            <p>Cabinet hub have eqully being organizing, hosting and facilitating worshops across Nigeria and Niger in addition to providing mentorship and learning resources to participants. these hackathons are centered around solving critical problems that our communities are facing locally around Nigeria and Niger republic.</p>
+            </div>
+            <div class="col-md">
+              <img class="img-fluid" src="images/Hackathon.jpg" alt="">
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="partnerships"></div>
+      <!-- Partners Section -->
+      <section class="pt-4 p-md-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img class="img-fluid" src="images/partners.png" alt="">
+            </div>
+            <div class="col-md">
+              <h3 class="fs-1">Partners & Networks</h3>
+            <P class="lead">Meet our lead Partner: Bank Of Africa Foundation</P>
+            <p>Through our partnership with Bank Of Africa Foundation we are improving the lives of vulnerable youth by providing them with access to quality education and network through digital skills empowerment.</p>
+            <p><b>American Corner (American Space) Zinder</b> is our strategic partner in implementation of programs that improve youth participation in leadership and decision making in areas that affect their lives and communities.</p>
+            <p>We are proud members of <b>AfriLabs</b> which is a network organisation supporting Innovation Centers across African countries since 2011, founded upon the mission of building a community around the rapidly emerging technology hubs in Africa. </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="projects"></div>
+    <!-- Projject Photo Sections -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Group Pictures</div>
+        <img src="images/Group-picture.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Group Photo</div>
+        <img src="images/Group-pictures-2.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Learning Sessions</div>
+        <img src="images/learning-session.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Class Sessions</div>
+        <img src="images/teaching.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <!-- Accordion -->
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item ">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Meet The CEO, Binta Moustapha
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><p class="accordion-paragraph"><img class="rounded-circle ceo-image" src="images/ceo.jpg" alt="Binta"></p>
+          <p class="accordion-paragraph2">Binta is a Non Governmental Organizations Specialist with educational and professional experience in the Anglophone & Francophone West Africa. She enjoys working on girls, women and youth investment initiatives. Most of her work history have been in the classroom and the School System, which is the engine room for any community that aims to empower her citizens. These work have included: founding a Second Chance School for Married Muslim Mothers in South Eastern Nigeria; Led other Commited Members of FOMWAN Cross River State Nigeria to build a Nursery and Primary School alongside a Madrasa which caters for several families within a majority Muslim Community Insitu Christian Majority Zone for Peace building and Social Cohesion. She has brought her Experience Founding and Managing a Nonprofit Organization which promotes Science Technology Engineering & Mathematics Education through Events since 2010 to profit a Visibility Project launched in September 2019 for Nigerian Women in Tech via the 100WomenInTech Nigeria Awards & Documentation Initiative. Just afterwards in March 2020, as activities for the International Women's Day/Month Visibility Project Unveiled Awardees, the COVID19 CRISIS presented a window of opportunity to bring together Men and Women, Organizers, Participants, Partners, Mentors, Facilitators & Others for Hack The Crisis Nigeria. This foremost all-online Virtual HACKATHON ran all through March-May 2020. A passion for promoting Knowledge Transfer and Digital Transformation in the Indigenous languages spoken around the West African Sub Region has transformed into Co-Initiating a first of its kind HACKATHON targetting Hausa Language & Communities distributed around the World to build solutions which will include a long term goal for a Digital Library.</p></div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Learning Resources
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><div class="card-group">
+          <div class="card">
+            <img src="images/Dr.jpeg" class="card-img-top" alt=" ">
+            <div class="card-body">
+              <h5 class="card-title">Mme Issalak TSEMOGO</h5>
+              <p class="card-text">Design Thinking Workshop for innovating digital solutions to address climate change and adaptation</p>
+              <p><a class="unique-links" href="https://drive.google.com/file/d/13LrtirDOfQXchWX2J3O-ni-2n5_VprDv/view?usp=sharing">Climate Change</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/Umar.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Umar Adam</h5>
+              <p class="card-text">Design Thinking Workshop for innovating digital solutions to address climate change and adaptation.</p>
+              <p><a class="unique-links" href="https://drive.google.com/drive/folders/1E5tZaWtEthl5oW802mB8XaeRxCOlCT6Q?usp=sharing">Design Thinking Webinar</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/Albashir.jpeg" class="card-img-top" alt="Albashir Ishaq Ibrahim">
+            <div class="card-body">
+              <h5 class="card-title">Albashir Ishaq Ibrahim</h5>
+              <p class="card-text">Design Thinking Workshop for innovating digital solutions to address climate change and adaptation.</p>
+              <p><a class="unique-links" href="https://drive.google.com/file/d/1s7sOwOL8OuRRt8XUphN5ih2x7oxbVFYg/view?usp=sharing">Digital Solution for climate change</a></p>
+              <p><a class="unique-links" href="https://www.youtube.com/@albashirishaqibrahim">Digital Skills Training Youtube Channel</a></p>
+            </div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="contacts"></div>
+      <!-- Map & address -->
+      <section id="contact" class="p-3 p-sm-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Address:</span> C/O American Corner EMJC Quartier Jeune Cadre Zinder
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone:</span> +(227) 92288237
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> asbszinder@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Facebook:</span> <a class="unique-links" href="https://www.facebook.com/profile.php?id=100051148959962&mibextid=ZbWKwL">Cabinet Hub Zinder</a>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Twitter:</span> <a class="unique-links" href="https://twitter.com/HubZinder?t=g0iO_7tqKjvlhplKCuSpaw&s=09">Cabinet Hub Zinder</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <footer class="bg-dark text-light p-5 text-center">
+        <p class="lead">Copyright &copy CABINET HUB ZINDER 2023</p>
+      </footer>
+
+
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZW5ncmJhc2giLCJhIjoiY2tzN3U4emc1MWdoZzJucGhuN2N1c2lnaCJ9.4gBtMgEnVoGjNGkd9kNvvQ';
+      var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [13.8060588, 8.9653147], 
+      zoom: 3
+      });
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+</body>
+</h

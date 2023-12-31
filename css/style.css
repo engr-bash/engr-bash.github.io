@@ -1,0 +1,69 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar img {
+    width: 60px;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.mission-header {
+    color: #FF4500;
+}
+
+.mission-img {
+        display: none;
+    }
+
+.orange-section {
+    background-color: #FF4500;
+}
+
+.ceo-image{
+    width: 142px;
+}
+
+.accordion-paragraph {
+    text-align: center;
+}
+
+.accordion-paragraph2 {
+    text-align: justify;
+}
+#map {
+    width:100%;
+    height:100%;
+    border-radius:10px
+}
+
+.lang-img {
+    height: 26px;
+}
+
+.unique-links {
+    text-decoration: none !important;
+    color: blue;
+}
+@media(min-width: 768px) {
+    .carousel-img {
+        height: 89vh;
+        width: 100vw;
+    }
+
+    .mission-img {
+        width: 160px;
+        display: inline-block;
+    }
+
+
+    .accordion-paragraph2 {
+        padding: 0 5rem !important;
+    }
+
+
+}
